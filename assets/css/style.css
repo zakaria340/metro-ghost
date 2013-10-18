@@ -1,0 +1,40 @@
+/*
+Theme Name: Metro Ghost
+Theme URI: 
+Author: Zakaria Elhariri
+Author URI: 
+Description: Metro Ghost is a Metro UI CSS theme which puts you and your content on stage.
+Version: 0.1
+License: GNU GPLv3
+License URI: http://www.gnu.org/copyleft/gpl.html
+
+Based on Metro UI CSS: http://metroui.org.ua
+*/
+
+@import "css/modern.css";
+
+.page {
+    width: 940px;
+    margin: 40px auto;
+}
+
+.post_content {
+    text-align: justify;
+}
+
+article {
+    border-bottom: 1px #ccc dotted;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #ffffff;
+}
+#sidebar{
+   position: fixed;
+       width:200px;
+}
