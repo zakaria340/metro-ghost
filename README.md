@@ -1,4 +1,4 @@
 metro-ghost
 ===========
-![Image](../assets/screen/m1.jpg?raw=true)
+![Image](../tree/master/assets/screen/m1.jpg?raw=true)
 
