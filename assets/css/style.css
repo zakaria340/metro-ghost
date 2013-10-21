@@ -38,3 +38,31 @@ hr {
    position: fixed;
        width:200px;
 }
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .page {
+        width: 724px;
+    }
+    #sidebar {
+        display: none;
+    }
+ 
+}
+
+@media (max-width: 767px) {
+   .page {
+        width: 724px;
+    }
+    #sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .page {
+        width: 724px;
+    }
+    #sidebar {
+        display: none;
+    }
+}

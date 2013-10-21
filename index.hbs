@@ -14,8 +14,47 @@
                     <div class="span3">
                         {{#if @blog.logo}}<img src="{{@blog.logo}}" alt="Blog Logo" />{{/if}}
                     </div>
-                    <a href="{{@blog.url}}"><h1 class="blog-title">{{@blog.title}}</h1></a>
+            
+  <a href="{{@blog.url}}"><h1 class="blog-title">{{@blog.title}}</h1></a>
                     <h2 class="blog-description">{{@blog.description}}</h2>
+
+                    <div class="page-sidebar">
+                        <ul>
+                            <li class="sticker sticker-color-orange">
+                                <a href="#">
+                                    <i class="icon-home"></i>
+                                    Home
+                                </a>
+                            </li>   
+                            <li class="sticker sticker-color-red dropdown active" data-role="dropdown">
+                                <a>
+                                    <i class="icon-list"></i>
+                                    dropdown
+                                </a>
+                                <ul class="sub-menu light sidebar-dropdown-menu" style="display: block;">
+                                    <li>
+                                        <a href="">Lien 1</a>
+                                    </li>
+                                  <li>
+                                        <a href="">Lien 1</a>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
+                            <li class="sticker sticker-color-green">
+                                <a href="#">
+                                    <i class="icon-twitter"></i>
+                                    Twitter
+                                </a>
+                            </li>   
+                            <li class="sticker sticker-color-pink dropdown active">
+                                <a href="#">
+                                    <i class="icon-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>   
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -28,7 +67,7 @@
 
                 <article class="{{post_class}}">
                     <div class="article_title pos-rel">
-                        <a href="{{url}}"><h2 class="post-title">{{{title}}}</h2></a>
+                        <a href="{{url}}"><h3 class="post-title bg-color-blueDark padding5 fg-color-white">{{{title}}}</h3></a>
                     </div>
                     <div class="">
                         <span class="tertiary-text">
